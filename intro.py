@@ -2,11 +2,11 @@
 # ie my_message not my message
 # tripple " when going onto multiple lines
 
-message = "Hello world"
+greeting = 'Hello'
+name = 'Michael'
 
-new_message = message.replace('world', 'universe')
+# message = greeting + ', ' + name
+message = '{}, {}. Welcome!'. format(greeting, name)
+# message = f'{greeting}, {name}. Welcome!'
 
-print(new_message)
-
-
-
+print(message)
