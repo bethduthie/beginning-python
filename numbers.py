@@ -1,7 +1,9 @@
-# addition 3 + 2
-# substraction 3 - 2
-# multiply 3 * 2
-# division 3 / 2
-# floor division 3 //2
-# exponet 3 ** 2
-# modulus 3 % 2
+# print(round(3.7592, 1))
+
+num1 = '100'
+num2 = '200'
+
+num1 = int(num1)
+num2 = int(num2)
+
+print(num1 * num2)

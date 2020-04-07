@@ -1,3 +1,4 @@
+# strings
 message = 'Hello world'
 
 print(message)
@@ -19,3 +20,20 @@ name = 'Michael'
 # message = greeting + ', ' + name
 message = '{}, {}. Welcome!'. format(greeting, name)
 # message = f'{greeting}, {name}. Welcome!'
+
+# numbers
+# addition 3 + 2
+# substraction 3 - 2
+# multiply 3 * 2
+# division 3 / 2
+# floor division 3 //2
+# exponet 3 ** 2
+# modulus 3 % abs()
+
+# comparations (bolian fucntions)
+# equal ==
+# not equal !=
+# greater than >
+# less than <
+# greater or equal to >=
+# less or equal to =
