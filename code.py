@@ -37,3 +37,26 @@ message = '{}, {}. Welcome!'. format(greeting, name)
 # less than <
 # greater or equal to >=
 # less or equal to =
+
+# lists examples
+
+courses = ['history', 'maths', 'pysics', 'compsci']
+courses2 = ['art', 'education']
+
+print(courses.index('maths'))
+
+courses.append('art')
+# adds art at the end of list
+
+courses.extend(courses2)
+# adds second list seemlessly into first
+
+courses.sort()
+# sorts list into alphabetical/numerical order
+
+courses.sort(reverse=True)
+# sorts into descing order
+
+(min)
+(max)
+(sum)
