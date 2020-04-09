@@ -40,6 +40,10 @@ message = '{}, {}. Welcome!'. format(greeting, name)
 
 # lists examples
 
+nums = (2) # example number
+print(sum(nums)/len(nums))
+# finds average
+
 courses = ['history', 'maths', 'pysics', 'compsci']
 courses2 = ['art', 'education']
 
@@ -57,6 +61,21 @@ courses.sort()
 courses.sort(reverse=True)
 # sorts into descing order
 
-(min)
-(max)
-(sum)
+(min)  #  finds the minimum value
+(max)  #  finds the max value
+(sum)  #  totals all values
+
+# dictionaries
+
+student = {'name': 'John', 'age': 25, 'courses': ['Maths', 'Pysics']}
+
+student.update({'name': 'Jane', 'age': 26, 'phone': 555-5555})  #updates and adds values/keys
+
+del student['age'] #deletes keys
+
+print(student.keys())
+print(student.values())
+print(student.items()) # prints both the keys and the values
+
+for keys, values in student.items():
+	print(keys, values)
