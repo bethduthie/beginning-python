@@ -1,5 +1,4 @@
-courses = ('history', 'maths', 'pysics', 'compsci')
+courses = ['history', 'maths', 'pysics', 'compsci']
 
-courses.insert(0, 'art')
-
-print(courses)
+for item in courses:
+	print(item)
