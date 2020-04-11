@@ -1,12 +1,4 @@
-# user selects between 1 and 2
-# 1 asks for two numbers to add together
-# 2 asks for two numbers to mulitply
-# if another number is selected, return 'try again'
-
-# input() function
-
-
-choice = input('Select one or two: ')
+choice = input('Type in one to add or two to multiply: ')
 
 while not choice == 'one' and not choice == 'two':
     choice = input('Select one or two: ')
@@ -20,7 +12,7 @@ if choice == 'one':
         addition2 = int(addition2)
         print(addition + addition2)
     except:
-        print('Error!')
+        print('Error! That wasn\'t a number. Please try again using digits, not words.')
 
 if choice == 'two':
     multiply = input('Select two numbers to multiply. First number: ')
@@ -30,7 +22,7 @@ if choice == 'two':
         multiply2 = int(multiply2)
         print(multiply * multiply2)
     except:
-        print('Error!')
+        print('Error! That wasn\'t a number. Please try again using digits, not words.')
 
 
 
