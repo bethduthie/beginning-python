@@ -1,9 +1,15 @@
-import requests, json
+import requests
 
-def get_url_data(url, params): 
+
+def get_url_data(url, params):
     # params is key word argument that contains data for GR api
-    response = requests.get(url, params=params) # contacts url and gets data
-    return response.json()
+    response = requests.get(url, params=params)  # contacts url and gets data
+    try:
+        json = response.json()
+    except:
+        raise Exception('Error! No such ISBN.')
+    return json
+
 
 url = 'https://www.goodreads.com/book/isbn_to_id'
 
